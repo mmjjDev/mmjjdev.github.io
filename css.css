@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+body {
+    background: #edf2f4;
+    margin: 0;
+    font-family: 'Source Code Pro', monospace;
+    user-select: none;
+}
+#players {
+    width: 400px;
+    height: auto;
+    position: relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+    text-align: center;
+    padding: 20px;   
+    background: #c1cfc7;  
+    border-radius: 12px;        
+}
+.helm  {
+    float: left;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.item {
+    margin-top: 20px;
+    padding: 10px;
+    background: linear-gradient(90deg, rgba(80,126,103,1) 0%, rgba(112,179,128,1) 100%);
+    width: 95%;
+    position: relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    height: 50px;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.5),
+    5px 5px 10px rgba(0, 0, 0, 0.2);
+    opacity: 0.8;
+    transition: width 0.2s ease-in-out;
+}
+.item:hover {
+    width: 110%;
+}
+.item p {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+}
+.right {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 80vh;
+    height: 80vh;
+}
+.left {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 80vh;
+    height: 80vh;
+}
+#button {
+    width: 200px;
+    height: auto;
+    background: #7289DA;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    position: relative;
+    border-radius: 10px;
+    transition-property: box-shadow, width, opacity;
+    transition-duration: 0.2s;
+    transition-timing-function: easy-in-out;
+    opacity: 0.9;
+    margin-bottom: 10vh;
+}
+.logo {
+    width: 112px;
+    height: 56px;
+    position: relative;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 5px;
+}
+.link {
+    display: block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+}
+#button:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    width: 220px;
+    opacity: 1;
+}
+p {
+    text-align: center;
+    color: #b1bdb6;
+}
+a {
+    text-decoration: none;
+    color: #799182;
+}
+a:hover {
+    color: #6b7c72;
+}
