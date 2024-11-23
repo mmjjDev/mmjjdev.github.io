@@ -1,5 +1,5 @@
 // Configurable variables
-const numberOfButtons = 9999; // Change this to create more buttons
+const numberOfButtons = 2500; // Change this to create more buttons
 const emojis = ["💅", "🥂", "✨", "👑", "🎁", "🎀", "🌸", "💖", "💃"];
 
 // Hide the surprise message using base64 encoding
