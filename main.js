@@ -83,3 +83,31 @@ overlay.addEventListener("click", () => {
   popup.style.display = "none";
   overlay.style.display = "none";
 });
+
+tsParticles.load("particles-js", {
+  particles: {
+    number: {
+      value: 50,
+    },
+    color: {
+      value: ["#ff69b4", "#ffb6c1", "#ffc0cb"],
+    },
+    shape: {
+      type: "circle",
+    },
+    opacity: {
+      value: 0.8,
+    },
+    size: {
+      value: 5,
+      random: true,
+    },
+    move: {
+      enable: true,
+      speed: 2,
+    },
+  },
+  background: {
+    color: "#fff3f8",
+  },
+});
